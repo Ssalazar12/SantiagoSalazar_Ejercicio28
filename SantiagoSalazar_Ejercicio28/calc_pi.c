@@ -39,7 +39,7 @@ char name[80]; /* char array for storing the name of the node where is located t
  	if (rank == 0) {
  		 
  		printf("Enter the number of intervals: (0 quits)"); 
- 		n=1000;
+ 		n=argv[1];
  		 start_time = MPI_Wtime();
  		  }
  	 /* We are broadcasting to everybody the number of interval */
